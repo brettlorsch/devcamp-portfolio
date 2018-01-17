@@ -7,11 +7,6 @@ class BlogsController < ApplicationController
     @blogs = Blog.all
   end
 
-
-
-
-
-# this is a comment
   # GET /blogs/1
   # GET /blogs/1.json
   def show
