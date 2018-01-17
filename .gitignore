@@ -16,4 +16,8 @@
 /node_modules
 /yarn-error.log
 
+# ignore Byebug command history files.
 .byebug_history
+
+# I don't want to show my secrets
+/config/secrets.yml
