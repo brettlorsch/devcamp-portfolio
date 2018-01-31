@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
        end 
     end
+
+    def copyright_generator
+      LorscheiderViewTool::Renderer.copyright 'Brett Lorscheider', 'All rights reserved'
   end
+end

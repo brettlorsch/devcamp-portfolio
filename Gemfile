@@ -53,3 +53,5 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
+
+gem 'Lorscheider_view_tool', git: 'https://github.com/brettlorsch/lorscheider_view_tool'
