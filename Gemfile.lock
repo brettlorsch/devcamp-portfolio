@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    Lorscheider_view_tool (0.1.0)
     actioncable (5.1.4)
       actionpack (= 5.1.4)
       nio4r (~> 2.0)
@@ -183,6 +184,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  Lorscheider_view_tool (~> 0.1.0)
   bootstrap (~> 4.0.0)
   byebug
   coffee-rails (~> 4.2)
