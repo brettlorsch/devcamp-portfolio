@@ -9,11 +9,11 @@ class PortfoliosController < ApplicationController
 
   def sort
     params[:order].each do |key, value|
-      portfolio.find(value[:id]).update(position: value[:position])
-  end
+      Portfolio.find(value[:id]).update(position: value[:position])
+    end
 
-  render nothing: true
-end
+    render body: nil
+  end
 
   def angular
     @angular_portfolio_items = Portfolio.angular
@@ -74,5 +74,5 @@ end
 
   def set_portfolio_item
     @portfolio_item = Portfolio.find(params[:id])
-      end
-    end
+  end
+end
