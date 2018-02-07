@@ -60,3 +60,11 @@ puts "9 portfolio items created"
 end
 puts "3 technologies created"
 
+User.create(name:"Brett Lorscheider", email:"brettlorsch@gmail.com", password:"socsdan1", password_confirmation:"socsdan1", role:"site_admin")
+
+
+
+
+
+
+
