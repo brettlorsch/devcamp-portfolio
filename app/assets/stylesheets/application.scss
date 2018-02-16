@@ -218,20 +218,20 @@ h6, .h6 {
   color: white;
 }
 
-.tech_news {
+.tech-news {
   color: black;
   margin: 20px;
 }
 
-.tech_news a {
-  color: green;
-  
+.tech-news > .card {
+  padding: 30px;
 }
 
-.tech_news > .card {
-  padding: 30px;
-  
+.tech-news a {
+  color: green;
 }
+
+
 
 .app-card-container {
   color: black;
